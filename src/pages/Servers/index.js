@@ -65,7 +65,7 @@ function Servers() {
           {displayedServers.map(({ name, distance }, index) => (
             <li key={index}>
               <span>{name} </span>
-              <span>{distance}</span>
+              <span>{distance} km</span>
             </li>
           ))}
         </ul>
